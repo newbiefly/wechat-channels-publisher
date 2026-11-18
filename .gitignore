@@ -1,0 +1,26 @@
+# 真实配置（含本地路径），只留 example
+scripts/config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 登录态、发布记录、截图、计划 —— 都不会出现在仓库里，但防止手误
+sph-profile/
+.agents/
+sph-publish-log.jsonl
+plan.meta.json
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

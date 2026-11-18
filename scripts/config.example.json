@@ -1,0 +1,5 @@
+{
+  "data_dir": "D:/videos/.agents",
+  "default_short_title": "日常分享",
+  "_说明": "复制本文件为 config.json 再改。data_dir 下存登录态（sph-profile）、发布记录（sph-publish-log.jsonl）、截图、计划；改 data_dir 等于换一个浏览器配置，需要重新扫码，也可用 SPH_DATA_DIR 环境变量临时覆盖。default_short_title 是短标题默认值，平台限 16 字。"
+}
